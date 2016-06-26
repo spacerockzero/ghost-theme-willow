@@ -38,3 +38,20 @@
   padding: 40px 0 10px;
   border-top: 1px solid $c-grayMedium;
 }
+
+// Responsive technique for css-only video embed resizing
+.flex-video {
+    height: 0;
+    overflow: hidden;
+    padding-bottom: 67.5%;
+    position: relative;
+    margin-bottom: 2em
+}
+
+.flex-video embed,.flex-video iframe,.flex-video object,.flex-video video {
+    height: 100%;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    left: 0
+}
