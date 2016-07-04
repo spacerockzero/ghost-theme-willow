@@ -11,7 +11,13 @@
 }
 
 .c-sidebar-navigation__item {
-  padding: 5px;
+  // padding: 5px;
+  // font-weight: bold;
+  // display: inline-block;
+  padding: 0.3em 0.6em;
   font-weight: bold;
   display: inline-block;
+  background-color: orange;
+  border-radius: 5px;
+  margin: 0.1em 0.1em;
 }
