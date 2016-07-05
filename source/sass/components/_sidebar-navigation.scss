@@ -6,6 +6,7 @@
 .c-sidebar-navigation {
   font-size: 0.9em;
   margin-bottom: 20px;
+  margin-top: 20px;
   padding-bottom: 20px;
   border-bottom: 1px solid $c-grayMedium;
 }
@@ -14,10 +15,40 @@
   // padding: 5px;
   // font-weight: bold;
   // display: inline-block;
-  padding: 0.3em 0.6em;
-  font-weight: bold;
+  padding: 0.4em 0.8em;
+  // font-weight: bold;
   display: inline-block;
-  background-color: orange;
+  background-color: $c-colorFourth;
   border-radius: 5px;
   margin: 0.1em 0.1em;
+  color: white;
+  &:hover {
+    color: $c-grayDarkest;
+  }
+}
+
+.c-sidebar-track-links {
+  font-size: 0.9em;
+  // margin-top: 20px;
+  margin-bottom: 20px;
+  // padding-top: 20px;
+  padding-bottom: 20px;
+  border-top: 1px solid $c-grayMedium;
+  border-bottom: 1px solid $c-grayMedium;
+}
+// .c-sidebar-track-links_title {
+//   text-transform: capitalize;
+//   // background-color: #ccc;
+//   padding: 0.4em;
+//   // color: #000;
+//   font-weight: bold;
+//   margin-top: 0;
+// }
+.c-sidebar-track-links__item {
+  display: block;
+  background-color: $c-colorFirst;
+  margin: 0.1em 1em;
+  // text-align: left;
+  // margin: 0.2em 1em;
+  // color: $c-grayDark;
 }

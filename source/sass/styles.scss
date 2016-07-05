@@ -5,10 +5,30 @@
 */
 $c-white: #ffffff;
 
+$c-grayDarkest: #111111;
 $c-grayDark: #555555;
 $c-grayLight: #f7f7f7;
 $c-grayMedium: #eaeaea;
 $c-grayAccent: #888888;
+
+/* http://www.colourlovers.com/palette/215539/Yellow_Tree_Frog */
+$c-colorFirst: #E73F3F;
+$c-colorSecond: #F76C27;
+$c-colorThird: #E7E737;
+$c-colorFourth: #6D9DD1;
+$c-colorFifth: #7E45D3;
+
+$c-colorFirstLight: lighten($c-colorFirst, 10);
+$c-colorSecondLight: lighten($c-colorSecond, 10);
+$c-colorThirdLight: lighten($c-colorThird, 10);
+$c-colorFourthLight: lighten($c-colorFourth, 10);
+$c-colorFifthLight: lighten($c-colorFifth, 10);
+
+$c-colorFirstDark: darken($c-colorFirst, 20);
+$c-colorSecondDark: darken($c-colorSecond, 20);
+$c-colorThirdDark: darken($c-colorThird, 20);
+$c-colorFourthDark: darken($c-colorFourth, 20);
+$c-colorFifthDark: darken($c-colorFifth, 20);
 
 $sidebarWidth: 290px;
 $maxPageWidth: 1000px;
