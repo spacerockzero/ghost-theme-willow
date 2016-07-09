@@ -17,11 +17,16 @@
         </div>
     </div>
 
-    <script src="{{asset "js/scripts.js"}}"></script>
-    <script src="{{asset "js/instantclick.min.js"}}" data-no-instant></script>
-    <script type="text/javascript" data-no-instant>
-        InstantClick.init();
-    </script>
+    <script src="{{asset "js/scripts.js"}}" data-no-instant></script>
+    <!-- <script src="{{asset "js/instantclick.min.js"}}" data-no-instant></script>
     {{ghost_foot}}
+    <script type="text/javascript" data-no-instant>
+      InstantClick.on('change', function() {
+        if(typeof window.ga === 'function') {
+          ga('send', 'pageview', location.pathname + location.search);
+        }
+      });
+      InstantClick.init();
+    </script> -->
 </body>
 </html>

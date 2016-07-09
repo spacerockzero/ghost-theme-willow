@@ -71,15 +71,60 @@
 
 // 3 column layout
 @mixin post3Col() {
-  width: 31.33333%;
+  width: 265px;
   float: left;
-  margin-right: 3%;
+  margin-right: 30px;
 
   &:nth-child(3n) {
     margin-right: 0;
   }
 
   &:nth-child(3n + 1) {
+    clear: left;
+  }
+}
+
+// 4 column layout
+@mixin post4Col() {
+  width: 22%;
+  float: left;
+  margin-right: 3%;
+
+  &:nth-child(4n) {
+    margin-right: 0;
+  }
+
+  &:nth-child(4n + 1) {
+    clear: left;
+  }
+}
+
+// 5 column layout
+@mixin post5Col() {
+  width: 18.3%;
+  float: left;
+  margin-right: 2%;
+
+  &:nth-child(5n) {
+    margin-right: 0;
+  }
+
+  &:nth-child(5n + 1) {
+    clear: left;
+  }
+}
+
+// 6 column layout
+@mixin post6Col() {
+  width: 15.8%;
+  float: left;
+  margin-right: 1%;
+
+  &:nth-child(6n) {
+    margin-right: 0;
+  }
+
+  &:nth-child(6n + 1) {
     clear: left;
   }
 }
