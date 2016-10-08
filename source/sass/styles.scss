@@ -63,6 +63,7 @@ $maxPageWidth: 1000px;
 @import "components/site-viewport";
 @import "components/site-sidebar";
 @import "components/site-content";
+
 @import "components/mobile-header";
 @import "components/sidebar-header";
 @import "components/sidebar-blog-title";
@@ -76,6 +77,7 @@ $maxPageWidth: 1000px;
 @import "components/post-view-meta";
 @import "components/post-view-share";
 @import "components/error-message";
+@import "components/disqus-comments";
 
 /*
 |-------------------------------------------------------------------------------
